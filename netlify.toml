@@ -17,3 +17,7 @@
   to = "/.netlify/functions/yep"
   status = 200
 
+[[redirects]]
+  from = "/api/octo"
+  to = "/.netlify/functions/octo"
+  status = 200
