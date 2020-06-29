@@ -20,11 +20,11 @@ function getRon(ev) {
 function getYep(ev) {
   ev.preventDefault();
   console.log('yep');
-  fetch('/api/yes')
+  fetch('/.netlify/functions/yep')
     .then((res) => res.json())
     .then((data) => {
       let main = document.querySelector('main');
-      main.innerHTML = `<h2>${data.msg}</h2>`;
+      main.innerHTML = `<h2>${data}</h2>`;
     })
     .catch((err) => console.error(err));
 }

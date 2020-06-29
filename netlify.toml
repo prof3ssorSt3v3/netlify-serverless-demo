@@ -12,7 +12,4 @@
   to = "https://ron-swanson-quotes.herokuapp.com/v2/:splat"
   status = 200
   
-[[redirects]]
-  from = "/api/yes"
-  to = "/.netlify/functions/yep"
-  status = 200
+
