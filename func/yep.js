@@ -8,6 +8,6 @@ exports.handler = (event, context) => {
 
   return {
     statusCode: 200,
-    body: JSON.stringify(`Yep. yep. yep. ${steve}`),
+    body: JSON.stringify({ msg: `Yep. yep. yep. ${steve}` }),
   };
 };

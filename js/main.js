@@ -24,7 +24,7 @@ function getYep(ev) {
     .then((res) => res.json())
     .then((data) => {
       let main = document.querySelector('main');
-      main.innerHTML = `<h2>${data}</h2>`;
+      main.innerHTML = `<h2>${data.msg}</h2>`;
     })
     .catch((err) => console.error(err));
 }
