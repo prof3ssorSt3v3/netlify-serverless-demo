@@ -14,5 +14,5 @@
   
 [[redirects]]
   from = "/api/yes"
-  to = ".netlify/functions/yep"
+  to = "/.netlify/functions/yep"
   status = 200
