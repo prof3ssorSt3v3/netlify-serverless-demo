@@ -5,9 +5,14 @@
   # the root website directory
   command = "echo 'I be building' "
   # the build command
+  functions = "func/"
   
 [[redirects]]
   from = "/api/ron/*"
   to = "https://ron-swanson-quotes.herokuapp.com/v2/:splat"
   status = 200
   
+[[redirects]]
+  from = "/api/yes"
+  to = ".netlify/functions/yep"
+  status = 200
